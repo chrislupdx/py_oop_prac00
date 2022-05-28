@@ -1,4 +1,4 @@
-#declar some classes :)
+#this module is for my data class declarations
 
 class basetask:
     def __init__(self, length, weight, name) -> None:
@@ -17,6 +17,9 @@ class schooltask(basetask):
         print("length of schooltask is ", self.length, "wegith is ", self.weight, "name is", self.name)
 
 class workTask(basetask):
+    pass
+
+class houseTask(basetask):
     pass
 
 bt = basetask(1111, 0 , "boringtask")
